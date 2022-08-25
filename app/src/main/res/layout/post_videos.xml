@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardPreventCornerOverlap="false"
+    android:layout_margin="15dp"
+    android:elevation="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/vv_post_ind"
+        app:use_controller="true"
+        android:layout_margin="10dp"
+        app:controller_layout_id="@layout/custom_exoplayeriv"
+        app:show_timeout="3000"
+        android:visibility="visible"
+        app:resize_mode="fixed_height"
+
+       />
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:text="Go to post"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginTop="500dp"-->
+<!--        android:textColor="@color/grey"-->
+<!--        android:clickable="true"-->
+<!--        android:id="@+id/btn1"-->
+<!--        android:background="@drawable/buttoncorners2"-->
+<!--        android:layout_marginLeft="220dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:drawableRight="@drawable/riggtarrow"-->
+<!--        android:drawablePadding="10dp"/>-->
+
+</androidx.cardview.widget.CardView>

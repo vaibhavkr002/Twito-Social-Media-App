@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Settings"
+            android:textColor="@color/grey"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/darkmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/darkmode"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/privacymode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+
+        android:text="Privacy"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/forgotpas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/changepassword"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Channge Password"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/privacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/privacypolicy"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Privacy Policy"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/blockedAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/block"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text = "Blocked Accounts"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>

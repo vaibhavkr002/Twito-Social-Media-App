@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrivacyPolicyActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textColor="@color/grey"
+            android:textSize="20sp"
+            android:id="@+id/lback"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:drawableStart="@drawable/leftarrow"
+            android:paddingStart="5dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/backbtn"
+            android:paddingLeft="5dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/pinRed"
+                android:textAlignment="viewStart"
+                android:textSize="30sp"
+                android:text="Twito Privacy Policy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/twito"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:text="This Privacy Policy of Twito Application describes policies and procedures on the collection, use and disclosure of Your information when You (i.e., the user) use the Service(s) and tells You about Your privacy rights and how the law protects You."
+/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/twito"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+          android:text="Twito App uses Your Personal data to provide and improve the Service(s). By using the Service(s), You agree to the collection and use of information in accordance with this Privacy Policy."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+       android:text="I. Interpretation of terms used in the Privacy Policy:
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Definitions for the purposes of this Privacy Policy:
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Account means a unique account created for You to access our Service(s) or parts of our Service(s)."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Application means the software program provided by the Company downloaded by You on any electronic device, named Twito App."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Service(s) refers to the Service(s) provided by Twito App."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Device means any device that can access the Service(s) such as a cell phone or a digital tablet."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="*Personal Data is any information taken by the Twito App"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="*Usage Data refers to data collected automatically, either generated by the use of the Service(s) or from the Service(s) infrastructure itself."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* You mean the individual accessing or using the Service(s), or the company, or other legal entity on behalf of which such individual is accessing or using the Service(s) of the Twito Application."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="II. Cookies"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory. This Service(s) does not use these ‘cookies’ explicitly. However, Twito app may use third party code and libraries that use ‘cookies’ to collect information and improve their Service(s). You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service(s)."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="III. Child Privacy"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Our Service(s) does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, Twito may take steps to remove that information from Our servers."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="IV. Policy on Retention of data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations established under the laws of India."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service(s), or We are legally obligated to retain this data for longer time periods."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="V. Collecting and Using Your Personal Data:"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="22sp"
+        android:text="A. Personal Data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="While using Our Service(s), Twito App may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally, identifiable information may include, but is not limited to:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Email address"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Phone Number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Birthdate"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Gender"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="B. Usage Data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Usage Data is collected automatically when using the Service(s)."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, the pages of our Service(s) that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="We may also collect information that Your browser sends whenever You visit our Service(s) or when You access the Service(s) by or through a mobile device."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="C. Information Collected while Using the Application"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Information regarding your location"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Pictures and other information from your Device's photo library"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="We use this information to provide features of Our Service(s), to improve and customize Our Service(s)."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="The data uploaded by your device on Our App will also be collected by Us."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="We use this information to provide features of Our Service(s), to improve and customize Our Service(s)."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="D. Use of Your Personal Data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="We use this information to provide features of Our Service(s), to improve and customize Our Service(s)."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="The Twito may use Personal Data for the following purposes:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* To provide and maintain our Service(s) including to monitor the usage of our Service(s)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* To manage Your Account"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* To contact You: via email or TWITO application's push notifications."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* To manage Your requests"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="VI. We may share Your personal information in the following situations"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="A. With Service(s) Providers: We may share Your personal information with Service(s) Providers to monitor and analyse the use of our Service(s), to contact You."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="B. With other users: when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed within the Twito App ."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="C. Consent: We may disclose Your personal information for any other purpose with Your consent."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="VII. Transfer of Your Personal Data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Your information, including Personal Data, is processed at Twito App’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred and be maintained on a device which might be located outside of Your state or the State of Twito App."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="The Twito will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="You agree that the content you share on Twito App is open to all other Users and that it can be circulated anywhere within and outside the App and Twito App is not responsible for the same. It is clearly stated that you are solely responsible for your interactions with other members. Twito App makes no representations/warranties/responsibility as to the conduct of other Users.
+"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="VIII. Disclosure of Your Personal Data"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Twito App can disclose your personal data"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="1. In case of Merger and acquisition:
+If the Twito Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="2. In case of Law enforcement
+Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency)."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="3. In case of other legal requirements
+The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Comply with a legal obligation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Protect and defend the rights or property of the Twito Company"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="* Prevent or investigate possible wrongdoing in connection with the Service(s)."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Protect the personal safety of Users of the Service(s) or the public."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Protect against legal liability."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="IX. In case you link to Other Websites on the App"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Our Service(s) may contain links to other websites that are not operated by Us. If You click on a third-party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="Twito App have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="X. In case you delete your Account"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="When You delete your account of Twito, we delete your posts, feed, location, status update and as a consequence You will not be able to retain the information later. However, the information about your account which was shared by User is not a part of your account and therefore will not be deleted"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="XI. In case of Changes in Privacy Policy"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="We will let You know via Twito App after the change becomes effective and update the date at the top of this Privacy Policy."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/twito"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="viewStart"
+        android:textSize="25sp"
+        android:text="XII. Contact Us"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="If you have any questions about this Privacy Policy, You can contact our Email ID:"
+                android:textAlignment="viewStart"
+                android:textColor="@color/twito"
+                android:textSize="20sp" />
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/pinRed"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:text="twito993@gmail.com"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

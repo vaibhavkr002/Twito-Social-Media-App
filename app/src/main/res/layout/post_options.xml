@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@drawable/bottom_back"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_keyboard_capslock_24"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_marginTop="5dp"
+        android:id="@+id/download_tv_post"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_arrow_downward_24"
+        android:clickable="true"
+        android:drawablePadding="15dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Post"
+        android:id="@+id/edit_post"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/edit_post"
+        android:clickable="true"
+        android:drawablePadding="15dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caption...."
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:id="@+id/et_caption"
+        android:layout_marginStart="9dp"
+        android:layout_margin="2dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btn_edit_caption"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonpimk"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_margin="4dp"
+        android:visibility="gone"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:drawableStart="@drawable/ic_baseline_share_24"
+        android:id="@+id/share_tv_post"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="15dp"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy Url"
+        android:layout_marginTop="10dp"
+        android:id="@+id/copyurl_tv_post"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_link_24"
+        android:drawablePadding="15dp"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/delete_tv_post"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/delete_red"
+        android:drawablePadding="15dp"
+        android:visibility="visible"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textColor="@color/start"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Post"
+        android:id="@+id/report_tv_post"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_report_24"
+        android:drawablePadding="15dp"
+        android:visibility="visible"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textColor="@color/start"
+        />
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="dev.twitoappvk.twito.MessageDetailActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/windowBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:text="Chat Details"
+            android:textColor="@color/grey"
+            android:textSize="23sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_marginLeft="5dp"
+        android:elevation="20dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_vertical"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="35dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_ms_item"
+            android:clickable="true"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:id="@+id/msname"
+            android:layout_marginBottom="10dp"
+            android:text="Name"
+            android:textColor="@color/grey"
+            android:textSize="23sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/mutemsgs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/mutemsg"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Mute messages"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/chatthemes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/chatthemes"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Chat themes"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/sharedmnf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/sharedmedia"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Shared media and files"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/restrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/restrict"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Restrict"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/ic_baseline_report_24"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Report"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/block"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Block"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

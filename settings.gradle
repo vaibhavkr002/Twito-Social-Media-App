@@ -1,0 +1,16 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://www.jitpack.io'
+        }
+        maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        }
+        maven { url 'https://jitpack.io' }
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Twito"
+include ':app'

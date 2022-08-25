@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.twittoapkvk.twito">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".SinglePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ChatShowSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity3a"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".WcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDpActivity"
+            android:exported="false" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ShowLikedUser" />
+        <activity android:name=".FollowerActivity" />
+        <activity android:name=".ShowStory" />
+        <activity android:name=".VideoCallinComing" />
+        <activity android:name=".VideoCallOutgoing" />
+        <activity android:name=".StoryActivity" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".SendImage" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity
+            android:name=".IndividualPost"
+            android:label="@string/title_activity_individual_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".ReplyActivity" />
+        <activity android:name=".YourQuestions" />
+        <activity android:name=".ShavedQuestionActivity" />
+        <activity android:name=".AskActivity" />
+        <activity
+            android:name=".PrivacyActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".UpdateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ShowBlocked"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ShowUser"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

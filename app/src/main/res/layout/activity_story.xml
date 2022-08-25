@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".StoryActivity">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?android:attr/windowBackground">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="STORY"
+                android:gravity="center"
+                android:textColor="@color/grey"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/lgrey"
+        android:elevation="50dp"
+        app:cardCornerRadius="10dp">
+
+
+        <ImageView
+            android:id="@+id/iv_storyup"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write something"
+         android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:textSize="25sp"
+        android:backgroundTint="@color/grey"
+        android:layout_margin="5dp"
+        android:id="@+id/et_story_Up"
+        android:paddingStart="10dp"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:id="@+id/pb_storyUp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/pinRed"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:elevation="20dp"
+        android:background="@drawable/buttonpimk"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_storyUp"
+        android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

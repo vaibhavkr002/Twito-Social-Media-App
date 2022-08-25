@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bottom_back"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_keyboard_capslock_24"/>
+
+
+
+        <TextView
+            android:id="@+id/related_f2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saved Questions"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:drawableStart="@drawable/ic_baseline_bookmarks_24"
+            android:drawablePadding="10dp"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:id="@+id/your_Question_f2"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_restore_24"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Your Questions"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+
+
+</LinearLayout>

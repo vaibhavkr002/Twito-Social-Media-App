@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/container1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MessageDetailActivity">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:id="@+id/back"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/leftarrow"
+         android:drawablePadding="10dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:text="Chat Settings"
+            android:textColor="@color/grey"
+            android:textSize="23sp" />
+
+
+
+    <Button
+        android:id="@+id/gottoprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableRight="@drawable/riggtarrow"
+        android:elevation="20dp"
+        android:paddingRight="20dp"
+        android:text="Go to profile"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/activestatus"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@drawable/button_back"-->
+<!--        android:drawableLeft="@drawable/activestatus"-->
+<!--        android:elevation="20dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Active status"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="15sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/peoples"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@drawable/button_back"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_people_24"-->
+<!--        android:elevation="20dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Peoples"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="15sp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/managestorage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@drawable/button_back"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_storage_24"-->
+<!--        android:elevation="20dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Manage storage"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="15sp" />-->
+
+    <Button
+        android:id="@+id/accountsettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/ic_baseline_settings_24"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Account settings"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/policiesndlegal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_back"
+        android:drawableLeft="@drawable/privacypolicy"
+        android:elevation="20dp"
+        android:paddingLeft="20dp"
+        android:text="Leagal and Policies"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/reportproblem"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:background="@drawable/button_back"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_report_24"-->
+<!--        android:elevation="20dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:text="Report a problem"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/red"-->
+<!--        android:textSize="15sp" />-->
+
+
+</LinearLayout>

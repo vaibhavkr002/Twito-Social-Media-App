@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56772255802",
+    "project_id": "twito-main",
+    "storage_bucket": "twito-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56772255802:android:1808a525ab8c6f4e49d503",
+        "android_client_info": {
+          "package_name": "dev.twittoapkvk.twito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56772255802-v7qfp6p49395r1reapfqbgam8q4nl1jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcPyZ71J_SKF3rsVDZNmXpHAiHMii2O1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56772255802-v7qfp6p49395r1reapfqbgam8q4nl1jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
